@@ -39,6 +39,8 @@ sap.ui.require([
 		// Assign the model object to the SAPUI5 core
 		// sap.ui.getCore().setModel(oModel);
 
+		//working on git 
+		
 		// Display the XML view called "App"
 		new XMLView({
 			// viewName: "sap.ui.demo.db.view.App"
