@@ -12,6 +12,8 @@
 			alert("msg1localbranch");
 			alert("msgwithlocalbranch");
 			alert("msggitbranch");
+			alert("commitfromwebide");
+			
 		}
 		
 	});
