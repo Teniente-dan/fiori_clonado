@@ -8,7 +8,7 @@ sap.ui.define([
 			alert("init");
 		},
 		onSelect: function () {
-			alert("msg");
+			alert("msgs");
 		}
 		
 	});
