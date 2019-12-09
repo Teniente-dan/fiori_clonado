@@ -1,4 +1,4 @@
-sap.ui.define([
+	sap.ui.define([
 	"sap/ui/core/mvc/Controller"
 ], function (Controller) {
 	"use strict";
@@ -9,6 +9,7 @@ sap.ui.define([
 		},
 		onSelect: function () {
 			alert("msgs");
+			alert("msg1master");
 		}
 		
 	});
