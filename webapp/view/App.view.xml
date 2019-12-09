@@ -1,0 +1,14 @@
+<mvc:View
+controllerName="testons.testo.controller.Main"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Panel headerText="{/Testo/panelHeaderText}" class="sapUiResponsiveMargin" width="auto" >
+		<content>
+			<Label text="First Name" class="sapUiSmallMargin"/>
+			<Input value="{/Testo/firstName}" valueLiveUpdate="true" width="200px" enabled="{/Testo/enabled}"/>
+			<Label text="Last Name" class="sapUiSmallMargin"/>
+			<Input value="{/Testo/lastName}" valueLiveUpdate="true" width="200px" enabled="{/Testo/enabled}"/>
+			<CheckBox selected="{/Testo/enabled}" text="Enabled" select="onSelect"/>
+		</content>
+	</Panel>
+</mvc:View>
