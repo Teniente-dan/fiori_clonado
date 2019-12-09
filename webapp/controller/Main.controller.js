@@ -9,7 +9,7 @@
 		},
 		onSelect: function () {
 			alert("msgs");
-			alert("msg1master");
+			alert("msg1localbranch");
 		}
 		
 	});
