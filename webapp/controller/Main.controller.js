@@ -11,6 +11,7 @@
 			alert("msgs");
 			alert("msg1localbranch");
 			alert("msgwithlocalbranch");
+			alert("msggitbranch");
 		}
 		
 	});
